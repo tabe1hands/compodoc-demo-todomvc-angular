@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { HomeComponent } from './home.component';
 
-import { HeaderModule } from '../header/';
 import { ListModule } from '../list/';
 import { FooterModule } from '../footer/';
 
@@ -22,7 +21,6 @@ import { FooterModule } from '../footer/';
         FormsModule,
         HttpModule,
 
-        HeaderModule,
         ListModule,
         FooterModule,
     ],
