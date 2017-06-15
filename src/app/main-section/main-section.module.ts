@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { HomeComponent } from './home.component';
+import { MainSectionComponent } from './main-section.component';
 
 import { ListModule } from '../list/';
 import { FooterModule } from '../footer/';
@@ -14,7 +14,7 @@ import { FooterModule } from '../footer/';
  */
 @NgModule({
     declarations: [
-        HomeComponent
+        MainSectionComponent
     ],
     imports: [
         BrowserModule,
@@ -24,6 +24,6 @@ import { FooterModule } from '../footer/';
         ListModule,
         FooterModule,
     ],
-    exports: [HomeComponent]
+    exports: [MainSectionComponent]
 })
-export class HomeModule { }
+export class MainSectionModule { }

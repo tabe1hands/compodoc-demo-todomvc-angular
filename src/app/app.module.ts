@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { HeaderModule } from './header/';
-import { HomeModule } from './home/';
+import { MainSectionModule } from './main-section/';
 
 import { AppComponent } from './app.component';
 
@@ -21,7 +21,7 @@ import { TodoStore } from './shared/services/todo.store';
     ],
     imports: [
         HeaderModule,
-        HomeModule,
+        MainSectionModule,
     ],
     providers: [
         TodoStore
