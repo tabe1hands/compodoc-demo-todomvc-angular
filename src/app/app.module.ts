@@ -10,7 +10,6 @@ import { AppComponent } from './app.component';
 import { TodoStore } from './shared/services/todo.store';
 
 /* Routing Module */
-import { AppRoutingModule }   from './app-routing.module';
 
 /**
  * The bootstrapper module
@@ -21,7 +20,6 @@ import { AppRoutingModule }   from './app-routing.module';
     ],
     imports: [
         HomeModule,
-        AppRoutingModule
     ],
     providers: [
         TodoStore
